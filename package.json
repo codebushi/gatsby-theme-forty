@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-forty",
   "description": "Gatsby Theme - Forty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby-plugin-manifest": "^2.2.4",
@@ -13,7 +13,9 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
   ],
   "license": "MIT",
   "scripts": {
