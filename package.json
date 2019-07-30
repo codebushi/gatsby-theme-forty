@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-forty",
   "description": "Gatsby Theme - Forty",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby-plugin-manifest": "^2.2.4",
