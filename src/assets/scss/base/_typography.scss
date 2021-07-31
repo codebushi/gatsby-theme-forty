@@ -6,6 +6,8 @@
 
 /* Type */
 
+@use "sass:math";
+
 body,
 input,
 select,
@@ -51,9 +53,9 @@ a {
     color: desaturate(darken(_palette(highlight), 15), 5) !important;
   }
 
-  &:focus {
+  /*&:focus {
     outline: 3px solid rgba(155, 241, 255, 0.5);
-  }
+  }*/
 }
 
 strong,
@@ -142,7 +144,7 @@ blockquote {
   border-left: solid 4px _palette(border);
   font-style: italic;
   margin: 0 0 _size(element-margin) 0;
-  padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4)
+  padding: math.div(_size(element-margin), 4) 0 math.div(_size(element-margin), 4)
     _size(element-margin);
 }
 
