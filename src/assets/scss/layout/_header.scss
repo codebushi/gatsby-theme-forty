@@ -70,9 +70,9 @@
       }
     }
 
-    &:focus {
+    /*&:focus {
       outline: 3px solid rgba(155, 241, 255, 0.5);
-    }
+    }*/
   }
 
   nav {
@@ -92,9 +92,9 @@
       position: relative;
       vertical-align: middle;
 
-      &:focus {
+      /*&:focus {
         outline: 3px solid rgba(155, 241, 255, 0.5);
-      }
+      }*/
 
       &:last-child {
         padding-right: 1.5em;
