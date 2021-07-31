@@ -10,7 +10,7 @@ https://gatsby-theme-forty.netlify.com
 
 Install this theme (assuming Gatsby is installed) by running from your CLI:
 
-```
+```shell
 gatsby new gatsby-theme-forty https://github.com/codebushi/gatsby-theme-forty
 cd gatsby-theme-forty
 gatsby develop
@@ -18,11 +18,12 @@ gatsby develop
 
 ## Updates
 
-Compared to the original work, 
+Compared to the original work,
 
-* The Gastby used by this package has been bumped from 2 to 3.
+* The Gatsby used by this package has been bumped from 2 to 3.
 * The sass version has been bumped to sass 2.
 * Drop some deprecated sass usages.
+* Drop `javascript:;` deprecated by `React`.
 
 ## CSS Grid
 
