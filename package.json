@@ -7,10 +7,12 @@
     "gatsby-plugin-manifest": "^4.0.0",
     "gatsby-plugin-offline": "^5.0.0",
     "gatsby-plugin-page-creator": "^4.0.0",
+    "gatsby-plugin-postcss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^5.0.0",
     "gatsby-plugin-sass": "^5.0.0",
     "node-sass": "^6.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "postcss": "^8.0.5"
   },
   "keywords": [
     "gatsby",
